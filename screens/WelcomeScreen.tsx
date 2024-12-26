@@ -4,9 +4,9 @@ import React from 'react';
 export default function WelcomeScreen({ navigation }: any) {
   return (
     <ImageBackground
-      source={{ uri: 'https://4kwallpapers.com/images/walls/thumbs_3t/15601.jpg' }} // Cambia esta URL por la ruta de tu imagen
+      source={{ uri: 'https://4kwallpapers.com/images/walls/thumbs_3t/15601.jpg' }}
       style={styles.background}
-      resizeMode="cover" // Ajusta la imagen al tamaño del contenedor
+      resizeMode="cover" 
     >
       <View style={styles.container}>
         <Text style={styles.title}>¡Bienvenido!</Text>
@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#fff', // Cambia el color a blanco para mayor contraste
+    color: '#fff', 
   },
   info: {
     fontSize: 18,
     marginVertical: 5,
-    color: '#fff', // Cambia el color a blanco para mayor contraste
+    color: '#fff', 
   },
   buttonContainer: {
     marginTop: 20,
