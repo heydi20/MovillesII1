@@ -19,10 +19,10 @@ export default function Pagina4Screen() {
 
 const styles = StyleSheet.create({
     header: {
-        fontSize: 32, // Tamaño grande
-        fontWeight: 'bold', // Negrilla
-        textAlign: 'center', // Centrar el texto
-        marginVertical: 20, // Espaciado arriba y abajo
-        color: '#333', // Color del texto
+        fontSize: 32, 
+        fontWeight: 'bold', 
+        textAlign: 'center', 
+        marginVertical: 20, 
+        color: '#333', 
     },
 })
