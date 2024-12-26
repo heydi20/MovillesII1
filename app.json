@@ -4,11 +4,11 @@
     "slug": "app-01",
     "version": "1.0.0",
     "orientation": "all",
-    "icon": "./assets/images/brazo.png",
+    "icon": "assets/images/asistente-de-robot.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/brazo.png",
+      "image": "assets/images/asistente-de-robot.png",
       "resizeMode": "contain",
       "backgroundColor": "#666"
     },

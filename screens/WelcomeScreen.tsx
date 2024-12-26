@@ -1,5 +1,6 @@
-import { Button, StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { Button, StyleSheet, Text, View, ImageBackground, Image } from 'react-native';
 import React from 'react';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function WelcomeScreen({ navigation }: any) {
   return (
@@ -15,7 +16,7 @@ export default function WelcomeScreen({ navigation }: any) {
         <View style={styles.buttonContainer}>
           <Button 
             title="IR A BOTTOM"
-            onPress={() => navigation.navigate("Botton")}
+            onPress={() => navigation.navigate("Drawer")}
           />
         </View>
       </View>
