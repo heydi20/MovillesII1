@@ -6,7 +6,7 @@ import Tarjeta from '../components/Tarjeta'
 export default function Pagina3Screen() {
   return (
     <View>
-      <Text>PERSONAJES</Text>
+      <Text style={styles.title}>PERSONAJES</Text>
       <FlatList 
         data = {datos}
         renderItem={ ( {item} ) => 
@@ -17,4 +17,11 @@ export default function Pagina3Screen() {
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  title: {
+    fontSize: 40,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+})

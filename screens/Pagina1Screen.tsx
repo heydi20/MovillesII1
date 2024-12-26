@@ -1,7 +1,7 @@
 import { Alert, Button, ImageBackground, StyleSheet, Text, TextInput, View } from 'react-native'
 import React, { useState } from 'react'
 
-export default function Pagina1Screen() {
+export default function Pagina1Screen({navigation}:any) {
   const [nombre, setNombre] = useState("")
   const [edad, setEdad] = useState("")
   const [ciudad, setCiudad] = useState("")
@@ -14,7 +14,7 @@ export default function Pagina1Screen() {
 
   return (
     <ImageBackground
-      source={{ uri: "https://4kwallpapers.com/images/walls/thumbs_3t/20145.jpg" }}
+      source={{ uri: "https://4kwallpapers.com/images/walls/thumbs_3t/5373.jpg" }}
       style={styles.img}
     >
       <View style={styles.contenedor}>
@@ -45,8 +45,9 @@ export default function Pagina1Screen() {
         <Button 
           title='ACEPTAR' 
           onPress={()=> datosAlert()}
-          color={'green'}
+          color={'purple'}
         />
+        
       </View>
 
     </ImageBackground>
@@ -61,7 +62,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     height: 55,
     width: "80%",
-    color: '#00cc29',
     backgroundColor: "#222a24",
     opacity: 0.95,
     borderRadius: 20,
